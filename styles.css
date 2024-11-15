@@ -1,0 +1,173 @@
+body {
+  font-family: "Encode Sans", sans-serif;
+  width: 100%;
+}
+
+.site {
+  width: 1250px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 52px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+h2 {
+  font-weight: bold;
+  color: #303134;
+}
+
+h3 {
+  font-size: 18px;
+  color: #303134;
+  margin-top: 15px;
+}
+
+h4 {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+p {
+  font-size: 14px;
+  color: #303134;
+}
+
+.img-noticia {
+  border-radius: 12px;
+  width: 193px;
+  height: 110px;
+}
+
+.logo {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-topo {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.borda-horizontal {
+  height: 2px;
+  width: 1250px;
+  background-color: #ebedef;
+}
+
+.borda-horizontal2 {
+  height: 2px;
+  width: 670px;
+  background-color: #ebedef;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.g1 {
+  color: #c4160c;
+}
+.oglobo {
+  color: #1e4b9b;
+}
+
+.valor {
+  color: #006766;
+}
+
+.ge {
+  color: #07aa47;
+}
+
+.cartola {
+  color: #e3662b;
+}
+
+.globoplay {
+  color: #c3170c;
+}
+
+.dropz {
+  color: #ff75bb;
+}
+
+.gshow {
+  color: #ec7d00;
+}
+
+.quem {
+  color: #323333;
+}
+
+.receitas {
+  color: #a81d83;
+}
+
+.coluna-g1 {
+  width: 700px;
+  margin-left: 10px;
+  padding-right: 35px;
+  border-right: 2px solid #ebedef;
+}
+
+.g1-destaques {
+  width: 600px;
+}
+
+.g1-noticias {
+  display: flex;
+  justify-content: space-between;
+  align-itens: center;
+  margin-left: 5px;
+  width: 670px;
+}
+
+.g1-noticia {
+  width: 198px;
+}
+
+.coluna-ge {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ge-noticia {
+  width: 198px;
+}
+
+.coluna-gshow {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 35px;
+  border-left: 2px solid #ebedef;
+}
+
+.gshow-noticia {
+  width: 198px;
+}
+
+.noticia {
+  margin-top: 12px;
+  width: 198px;
+}
